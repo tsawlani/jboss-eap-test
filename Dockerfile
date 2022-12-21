@@ -26,6 +26,6 @@ USER jboss
 
 EXPOSE 8080
 
-ENTRYPOINT ["/opt/jboss/jboss-eap-8.2/bin/standalone.sh"]
+ENTRYPOINT ["/opt/jboss/jboss-eap-8.0/bin/standalone.sh"]
 
 CMD ["-b", "0.0.0.0", "-c", "standalone-full-ha.xml"]
